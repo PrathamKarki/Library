@@ -15,10 +15,12 @@
     <header class="header">
         <h1 class="title">Book Store <span class="icon"><i class="fa fa-book"></i></span></h1>
         <p class="sub-title">Welcome to bookstore your personal space to add, track and manage your book collections.</p>
-        <button class="btn">Add a Book</button>
+        <button class="btn addABook">Add a Book</button>
     </header>
 
-    <section class="book-section">
+    <section class="book-section">  
+       
+        <dialog>
         <form action="#" method="post" id="bookForm">
             <fieldset class="book-info">
                 <h2 class="book-title">Please Add Book to Library</h2>
@@ -30,12 +32,12 @@
                 <input type="number" name="pages" id="pages" min="1" max="500" required>
                 <label for="read"><input type="checkbox" name="read" id="read"> Read</label>
                 <div class="button-container">
-                    <button class="submit btn" type="submit">Submit</button>
+                    <button class="submit btn  submitbtn"  type="submit">Submit</button>
                     <button class="cancel btn" type="button">Cancel</button>
                 </div>
             </fieldset>
         </form>
-
+    </dialog>
         <div class="main-container">
         </div>
     </section>
